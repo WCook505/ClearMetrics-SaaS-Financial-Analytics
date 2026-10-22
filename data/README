@@ -1,67 +1,47 @@
-Dataset | ClearMetrics SaaS Financial Analytics
+Dataset Contents
 
-Project Overview
+The dataset includes five CSV files:
 
-This folder contains the synthetic financial dataset used in the ClearMetrics SaaS Financial Analytics project.
+  customers.csv: Customer names, industries, and regions.
 
-ClearMetrics is a fictional B2B SaaS company offering subscription-based software services to businesses across different industries and geographic regions.
+  plans.csv: Subscription plans and pricing.
 
-The dataset simulates subscription activity, customer invoicing, and payment transactions to support financial analysis using SQL and Power BI.
+  subscriptions.csv: Subscription details and billing cycles.
 
-Dataset Description
+  invoices.csv: Invoice amounts, dates, and statuses.
 
-The dataset consists of five CSV files:
-
-customers.csv: Contains customer information, including customer names, industries, and regions.
-
-plans.csv: Contains subscription plan information and monthly pricing.
-
-subscriptions.csv: Contains customer subscriptions and billing cycle details.
-
-invoices.csv: Contains invoice transactions, billing dates, amounts, and statuses.
-
-payments.csv: Contains customer payment transactions and related invoice activity.
+  payments.csv: Customer payments and related invoice activity.
 
 Business Context
 
-ClearMetrics operates under a subscription-based business model.
+ClearMetrics generates revenue through software subscriptions.
 
-Customers select software subscription plans and are billed according to their subscription arrangements.
+Customers select a subscription plan and receive invoices based on their billing arrangements.
 
-The dataset enables analysts to evaluate financial performance, understand customer contributions, and identify patterns in billing and payment activity.
+This data can be used to investigate:
 
-Analytical Applications
+  -Monthly invoiced revenue trends
 
-The dataset supports several types of analysis:
+  -Subscription plan performance
 
-Monthly invoiced revenue trends
+  -Customer billing activity
 
-Average invoice values
+  -Industry and regional contributions
 
-Customer billing activity
+  -Invoice and payment patterns
 
-Subscription plan performance
+How the Data Was Used
 
-Industry-level financial contributions
+1.Imported the CSV files into MySQL.
 
-Geographic revenue distribution
+2.Organized the data into relational tables.
 
-Customer revenue rankings
+3.Developed a star schema for financial reporting.
 
-Invoice and payment analysis
+4.Connected the model to Power BI.
 
-Data Preparation
-
-The original CSV files were imported into MySQL to create a relational database.
-
-The data was subsequently transformed into a star schema consisting of invoice transactions and supporting dimension tables.
-
-This model was connected to Power BI to support financial reporting and interactive analysis.
+5.Created financial KPIs and interactive visualizations.
 
 Data Disclaimer
 
-This dataset is entirely synthetic.
-
-All customer records, subscription details, invoices, and payment transactions are fictional.
-
-The dataset was created exclusively for educational, analytical, and portfolio demonstration purposes and does not contain actual company financial information.
+All data is synthetic. Customer information, subscriptions, invoices, and payments are fictional and intended for portfolio demonstration purposes.
