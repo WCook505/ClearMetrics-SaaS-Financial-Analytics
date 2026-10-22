@@ -35,11 +35,3 @@ Dataset 📊
 The project uses synthetic SaaS financial data consisting of customers, subscription plans, subscriptions, invoices, and payments.
 
 The data is fictional and intended for demonstrating financial analytics techniques.
-
-Key Findings 🔍
-
-To be completed using verified results from the Power BI dashboard and SQL queries.
-
-Business Recommendations 💵
-
-To be completed based on the findings and their business implications.
